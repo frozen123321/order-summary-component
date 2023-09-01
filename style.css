@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+body {
+    background-color:#E0E8FF;
+    background-image: url(./img/pattern-background-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 639.27px 194px;
+    background-position: left -131.81px top 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.info h1{
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:#1F2E55;
+}
+
+.info p{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:#717FA6;
+}
+
+
+.container{
+    background-color: white;
+    width: 327px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0px 40px 40px -20px #0D30BD27;
+    padding-bottom: 35px;
+}
+
+.image{
+    width: 100%;
+}
+
+.hero{
+    width: 100%;
+}
+
+.plan{
+    display: flex;
+    background-color: #F7F9FF;
+    height: 81px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.change{
+    margin-right: 15px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #382AE1;
+    text-decoration: underline;
+}
+
+.annual-plan{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    gap: 15px;
+}
+
+.price :nth-child(1){
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1F2E55;
+}
+
+.price :nth-child(2){
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #717FA6;
+}
+
+.price{
+    display: grid;
+    gap: 5px;
+}
+
+.icon{
+    width: 48px;
+    height: 48px;
+}
+
+button{
+    width: 279px;
+    height: 50px;
+    background-color: #382AE1;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0px 20px 20px 0px #382AE131;
+}
+
+.cancel{
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #717FA6;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 1440px){
+    body{
+        background-image: url(./img/pattern-background-desktop.svg);
+        background-size: 100% 437px;
+        background-position: center top;
+    }
+
+    .container{
+        background-color: #FFFFFF;
+        width: 450px;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 20px;
+        box-shadow: 0px 40px 40px -20px #0D30BD27;
+    }
+    
+    .info h1{
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 37px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #1F2E55;
+        margin-top: 40px;
+    }
+    
+    .info p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #717FA6;
+        margin-top: 20px;
+    }
+    
+    .plan{
+        background-color: #F7F9FF;
+        width: 78%;
+        height: 98px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 20px; 
+        border-radius: 12px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .annual-plan{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 25px;
+        gap: 20px;
+    }
+    
+    .price{
+        display: grid;
+        gap: 8px;
+    }
+    
+    .price :nth-child(1){
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #1F2E55;
+    }
+    
+    .price :nth-child(2){
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #717FA6;
+    }
+    
+    
+    .change{
+        margin-right: 20px;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #382AE1;
+        text-decoration: underline;
+    }
+    
+    button{
+        width: 354px;
+        height: 50px;
+        background-color:#382AE1 ;
+        box-shadow: 0px 20px 20px 0px #382AE131;
+        border-radius: 12px;
+        font-size: 15px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #FFFFFF;
+        text-align: center;
+        border: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .cancel {
+        font-size: 15px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #717FA6;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    /* HOVERS */
+
+
+    .change:hover{
+        cursor: pointer;
+        color: #766CF1;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .button:hover{
+        cursor: pointer;
+        background-color: #766CF1;
+        box-shadow: 0px 20px 20px 0px #382AE131;
+    }
+
+    .cancel:hover{
+        cursor: pointer;
+        color: #1F2E55;
+    }
+}
